@@ -280,7 +280,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .htmlcss{
@@ -289,7 +289,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .python{
@@ -298,7 +298,7 @@ html{
 }
 @keyframes python {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .javascript{
@@ -307,7 +307,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .jenkins{
@@ -334,7 +334,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .creatividad{
@@ -343,7 +343,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .dedicacion{
