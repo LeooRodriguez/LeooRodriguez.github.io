@@ -343,7 +343,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .dedicacion{
@@ -352,7 +352,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .proyect{
@@ -361,7 +361,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 85%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
