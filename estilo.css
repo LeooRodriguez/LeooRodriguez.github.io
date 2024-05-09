@@ -274,13 +274,13 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .java{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s java forwards;
 }
-@keyframes javascript {
+@keyframes java {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .htmlcss{
@@ -343,7 +343,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .dedicacion{
