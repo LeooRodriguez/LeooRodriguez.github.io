@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/jpg" href="/favicon.png"/> <!-- TODO -->
+    <link rel="icon" type="image/jpg" href="/favicon.png"/> 
     <title>Portfolio - Leo Rodriguez</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -18,12 +18,12 @@
         </div>
         <nav id="nav">
             <ul>
-                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#inicio" data-key="menu_home" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" data-key="menu_about" onclick="seleccionar()">SOBRE MÍ</a></li>
                 <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                 <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                 <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                <li><a href="#contacto" data-key="menu_contact" onclick="seleccionar()">CONTACTO</a></li>
             </ul>
         </nav>
         <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -39,7 +39,7 @@
             <img src="img/foto_de_perfil_1.jpeg" alt="">
         </div>
         <h1>Leo Rodriguez</h1>
-        <h2>Licenciado en cs de la computación - Desarrollo </h2>
+        <h2 data-key="intro">Licenciado en cs de la computación - Desarrollo </h2>
         <div class="redes">
             <a href="https://github.com/LeooRodriguez" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/leonardo-rodr%C3%ADguez-4560b4224/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -51,40 +51,42 @@
 <!-- SECCION SOBRE MI -->
 <section id="sobremi" class="sobremi">
     <div class="contenido-seccion">
-         <button id="lang-btn">
-            > Change Language to English 
-            <span class="overlay"></span>
-        </button>
-        <h2>Sobre Mí</h2>
-        <p><span>Hola, soy Leonardo Rodriguez.</span> Recientemente me gradué de Licenciado en ciencas de la computación y mi proyecto a futuro es poder aprender y crecer en el campo del desarrollo de software y el aseguramiento de la calidad (QA), me encuentro en la búsqueda de mi primera oportunidad profesional. Aunque nuevo en el ámbito laboral, he dedicado numerosas horas al autoaprendizaje y a la práctica con proyectos personales que demuestran mi compromiso y habilidad para escribir código limpio y realizar pruebas exhaustivas que garantizan la calidad del software. Mi meta es unirme a un equipo donde pueda aportar valor desde el día uno y crecer como profesional del desarrollo y QA, entregando productos que no solo cumplan con los estándares técnicos sino que también superen las expectativas de los usuarios.</p>
-
+        <button onclick="changeLanguage('en')"> > Change Language to English <span class="overlay"></span></button>
+        <button onclick="changeLanguage('es')"> > Cambiar el idioma a Español <span class="overlay"></span></button>
+        <h2 data-key="about_me">Sobre Mí</h2>
+    <p>
+        <span data-key="presentation">Hola, soy Leonardo Rodriguez.</span> 
+        <p data-key="presentation2">
+            Recientemente me gradué de Licenciado en ciencas de la computación y mi proyecto a futuro es poder aprender y crecer en el campo del desarrollo de software y el aseguramiento de la calidad (QA), me encuentro en la búsqueda de mi primera oportunidad profesional. Aunque nuevo en el ámbito laboral, he dedicado numerosas horas al autoaprendizaje y a la práctica con proyectos personales que demuestran mi compromiso y habilidad para escribir código limpio y realizar pruebas exhaustivas que garantizan la calidad del software. Mi meta es unirme a un equipo donde pueda aportar valor desde el día uno y crecer como profesional del desarrollo y QA, entregando productos que no solo cumplan con los estándares técnicos sino que también superen las expectativas de los usuarios.
+        </p>
+    </p>
         <div class="fila">
             <!-- datos personales -->
             <div class="col">
-                <h3>Datos Personales</h3>
+                <h3 data-key="personal_information">Datos Personales</h3>
                 <ul>
                     <li>
-                        <strong>Numero de contacto</strong>
-                        +54 2915204611
+                        <strong data-key="contact_number">Numero de contacto</strong>
+                        +54 9 2915204611
                     </li>
                     <li>
-                        <strong>Email</strong>
+                        <strong data-key="email">Email</strong>
                         leonardorodriguez227@gmail.com
                     </li>
                     <li>
-                        <strong>Dirección</strong>
+                        <strong data-key="address">Dirección</strong>
                         Villa Crespo, CABA, Buenos Aires, Argentina
                     </li>
                     <li>
-                        <strong>Cargo</strong>
-                        <span>En busca de empleo</span>
+                        <strong data-key="position">Cargo</strong>
+                        <span data-key="seeking_employment">En busca de empleo</span>
                     </li>
                 </ul>
             </div>
 
             <!-- Tecnologias en aprendizaje -->
             <div class="col">
-                <h3>Tecnologias en aprendizaje</h3>
+                <h3>Tecnologías en aprendizaje</h3>
                 <div class="contenedor-tecnologias">
                     <div class="tecnologia">
                         <i class="fa-brands fa-js"></i>
@@ -317,6 +319,7 @@
         <a href="#"><i class="fa-solid fa-rss"></i></a>
     </div>
 </footer>
+
 
 <script src="script.js"></script>
 </body>
