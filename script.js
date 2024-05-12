@@ -49,6 +49,13 @@ const translations = {
         "presentation2": " Recientemente me gradué de Licenciado en ciencas de la computación y mi proyecto a futuro es poder aprender y crecer en el campo del desarrollo de software y el aseguramiento de la calidad (QA), me encuentro en la búsqueda de mi primera oportunidad profesional. Aunque nuevo en el ámbito laboral, he dedicado numerosas horas al autoaprendizaje y a la práctica con proyectos personales que demuestran mi compromiso y habilidad para escribir código limpio y realizar pruebas exhaustivas que garantizan la calidad del software. Mi meta es unirme a un equipo donde pueda aportar valor desde el día uno y crecer como profesional del desarrollo y QA, entregando productos que no solo cumplan con los estándares técnicos sino que también superen las expectativas de los usuarios.",
         "personal_information": "Datos Personales",
         "about_me": "Sobre Mí",
+        "tec":"Tecnologías en aprendizaje",
+        "button_cv":"Descargar CV",
+        "comunicacion": "Comunicación",
+        "contact_1": "Contacto",
+        "trabajo": "Trabajo en equipo",
+        "creatividad": "Creatividad",
+        "dedicacion": "Dedicación",
     },
     en: {
         "title": "Portfolio - Leo Rodriguez",
@@ -66,7 +73,14 @@ const translations = {
         "presentation2": "I recently earned my degree in Computer Science, and I am eager to further my learning and growth in software development and Quality Assurance (QA). Currently, I'm on the lookout for my first professional opportunity. Though new to the workforce, I have invested countless hours in self-study and hands-on projects that showcase my commitment and ability to write clean code and conduct thorough testing that ensures software quality. My goal is to join a team where I can immediately contribute value and grow as a development and QA professional, delivering products that not only meet technical standards but also exceed user expectations.",
         "personal_information": "Personal Information",
         "about_me": "About Me",
-        
+        "tec":"Technologies in learning",
+        "button_cv":"Download CV",
+        "contact_1": "Contact",
+        "comunicacion": "Communication",
+        "trabajo": "Teamwork",
+        "creatividad": "Creativity",
+        "dedicacion": "Dedication",
+
         
     }
 };
