@@ -56,6 +56,13 @@ const translations = {
         "trabajo": "Trabajo en equipo",
         "creatividad": "Creatividad",
         "dedicacion": "Dedicación",
+        "educacion": "Educación",
+        "lic": "Licenciatura en ciencias de la computación",
+        "lic_text": "Tuve el honor de recibirme en la Universidad Nacional del Sur en Bahía Blanca, Buenos Aires, Argentina, Donde aprendí muchas tecnologías y lenguajes de programación utilizados hoy en dia, tanto en profundidad como superficialmente además de aplitudes como gestión del tiempo y comunicación.",
+        "work": "Experiencia de trabajo",
+        "text_work_1": "Desarrollo del front-end de una pagina de venta de alimento para gato utilizando React, incorporando tecnologías como Boostrap, sistema de pagos con Mercado Pago y conexion lista para el back-end.",
+        "text_work_2": "Desarrollo del back-end basado en un sistema de inventario para una pagina de e-commerce con utilizacion de las tecnologias de  Postgres como DB y Laravel para la conexion entre rutas.",
+
     },
     en: {
         "title": "Portfolio - Leo Rodriguez",
@@ -80,8 +87,12 @@ const translations = {
         "trabajo": "Teamwork",
         "creatividad": "Creativity",
         "dedicacion": "Dedication",
-
-        
+        "educacion": "Education",
+        "lic": "Bachelor of Science in Computer Science",
+        "lic_text": "I had the honor of graduating from the Universidad Nacional del Sur in Bahía Blanca, Buenos Aires, Argentina. There, I learned many technologies and programming languages that are widely used today, both in-depth and at a basic level. I also developed skills in areas such as time management and communication.",
+        "work": "Work experience",
+        "text_work_1": "Front-end development of a cat food sales page using React, incorporating technologies like Bootstrap, payment system with Mercado Pago, and ready-to-connect back-end setup.",
+        "text_work_2": "Back-end development based on an inventory system for an e-commerce site, utilizing technologies such as PostgreSQL for the database and Laravel for route management.",
     }
 };
 
